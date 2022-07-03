@@ -1,0 +1,12 @@
+Array = {2,2,1}
+
+2 XOR 2 XOR 1
+2 ^ 2 ^ 1
+0010 ^ 0010 ^ 0001
+
+Same number 0
+Otherwise 1
+
+So same numbers will be cancelled out and
+remaining bits will be the single number.
+
