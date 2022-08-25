@@ -8,4 +8,5 @@
 | 4 | [Three Sum](https://leetcode.com/problems/3sum/) | Arrays (Two Pointers) | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Three%20Sum/src/Solution.java) |
 | 5 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | DP | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Climbing%20Stairs/src/Solution.java) |
 | 6 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Bit Manipulation | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Counting%20Bits/src/Solution.java) |
-| 7 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Arrays & Binary Search | [Click here]() |
+| 7 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Arrays & Binary Search | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Search%20Insert%20Position/src/Solution.java) |
+| 8 | [Jump Game](https://leetcode.com/problems/jump-game/) | DP | [Click here]() |
