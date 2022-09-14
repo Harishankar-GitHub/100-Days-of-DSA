@@ -11,4 +11,5 @@
 | 7 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Arrays & Binary Search | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Search%20Insert%20Position/src/Solution.java) |
 | 8 | [Jump Game](https://leetcode.com/problems/jump-game/) | DP | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Jump%20Game/src/Solution.java) |
 | 9 | [Maximum Sum Subarray](https://leetcode.com/problems/maximum-subarray/) | DP | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Maximum%20Sum%20Subarray/src/Solution.java) |
-| 10 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | DP | [Click here]() |
+| 10 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | DP | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Maximum%20Poduct%20Subarray/src/Solution.java) |
+| 11 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Arrays | [Click here]() |
