@@ -13,4 +13,5 @@
 | 9 | [Maximum Sum Subarray](https://leetcode.com/problems/maximum-subarray/) | DP | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Maximum%20Sum%20Subarray/src/Solution.java) |
 | 10 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | DP | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Maximum%20Poduct%20Subarray/src/Solution.java) |
 | 11 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Arrays | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Product%20of%20Array%20Except%20Self/src/Solution.java) |
-| 12 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Arrays, Two Pointers & Sorting | [Click here]() |
+| 12 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Arrays, Two Pointers & Sorting | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Sort%20Colors/src/Solution.java) |
+| 13 | [Majority Element](https://leetcode.com/problems/majority-element/) | Arrays | [Click here]() |
