@@ -9,6 +9,8 @@ public class Solution {
     }
 
     public static int maxDepth(TreeNode root) {
+        // O(n) time | O(n) space
+
         if (root == null) return 0;
 
         int leftNodeDepth = maxDepth(root.left) + 1;
