@@ -18,4 +18,5 @@
 | 14 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Binary Tree | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Binary%20Tree%20Inorder%20Traversal/src/Solution.java) |
 | 15 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Binary Tree | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Maximum%20Depth%20of%20Binary%20Tree/src/Solution.java) |
 | 16 | [Min Stack](https://leetcode.com/problems/min-stack/) | Stack & Design | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Min%20Stack/src/Solution.java) |
-| 17 | [Linked List Cycle]() | Linked Lists & Floyd's Cycle Detection Algorithm | [Click here]() |
+| 17 | [Linked List Cycle]() | Linked Lists & Floyd's Cycle Detection Algorithm | [Click here](https://github.com/Harishankar-GitHub/100-Days-of-DSA/blob/main/Linked%20List%20Cycle/src/Solution.java) |
+| 18 | [Find First and Last Position of Element in Sorted Array]() | Arrays & Binary Search | [Click here]() |
