@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Solution {
 
     // Problem statement: https://leetcode.com/problems/coin-change/
@@ -10,12 +12,18 @@ public class Solution {
     // Answer: 9 + 9 = 18 (2 coins used)
 
     public static void main(String[] args) {
-        System.out.printf("Minimum number of coins needed to make %d is %d%n", 11, coinChange(new int[]{1, 2, 5}, 11));
-        System.out.printf("Minimum number of coins needed to make %d is %d%n", 3, coinChange(new int[]{2}, 3));
-        System.out.printf("Minimum number of coins needed to make %d is %d%n", 11, coinChange(new int[]{1}, 0));
+        System.out.println("Solution 1");
+        System.out.printf("Minimum number of coins needed to make %d is %d%n", 11, coinChange_solution_1(new int[]{1, 2, 5}, 11));
+        System.out.printf("Minimum number of coins needed to make %d is %d%n", 3, coinChange_solution_1(new int[]{2}, 3));
+        System.out.printf("Minimum number of coins needed to make %d is %d%n", 11, coinChange_solution_1(new int[]{1}, 0));
+
+        System.out.println("Solution 2");
+        System.out.printf("Minimum number of coins needed to make %d is %d%n", 11, coinChange_solution_2(new int[]{1, 2, 5}, 11));
+        System.out.printf("Minimum number of coins needed to make %d is %d%n", 3, coinChange_solution_2(new int[]{2}, 3));
+        System.out.printf("Minimum number of coins needed to make %d is %d%n", 11, coinChange_solution_2(new int[]{1}, 0));
     }
 
-    public static int coinChange(int[] coins, int amount) {
+    public static int coinChange_solution_1(int[] coins, int amount) {
 
         // O(n*m) time, no. of distinct recursive calls * no. of work per recursive call.
         // O(m) space, where m is the amount.
@@ -43,5 +51,31 @@ public class Solution {
 
         dpArr[amount] = ans;
         return ans;
+    }
+
+    public static int coinChange_solution_2(int[] coins, int amount) {
+        // Using iterative approach and dynamic programming.
+        // O(n*d) time, where d is the number of denominations.
+        // O(n) space
+
+        int[] numOfCoins = new int[amount+1];
+        Arrays.fill(numOfCoins, Integer.MAX_VALUE);
+        numOfCoins[0] = 0;
+        int toCompare;
+
+        for (int denomination : coins) {
+            for (int amt = 0; amt <= amount; amt++) {
+                if (denomination <= amt) {
+                    if (numOfCoins[amt - denomination] == Integer.MAX_VALUE) {
+                        toCompare = numOfCoins[amt - denomination];
+                    } else {
+                        toCompare = numOfCoins[amt - denomination] + 1;
+                    }
+                    numOfCoins[amt] = Math.min(numOfCoins[amt], toCompare);
+                }
+            }
+        }
+
+        return numOfCoins[amount] != Integer.MAX_VALUE ? numOfCoins[amount] : -1;
     }
 }
