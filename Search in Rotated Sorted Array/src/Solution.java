@@ -45,6 +45,9 @@ public class Solution {
     }
 
     public static int search_solution_2(int[] nums, int target) {
+
+        // O(logn) time | O(1) space
+
         if (nums.length == 0) return -1;
 
         int left = 0;
