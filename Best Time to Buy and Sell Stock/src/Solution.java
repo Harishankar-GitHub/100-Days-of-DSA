@@ -11,16 +11,20 @@ class Solution {
 
         // O(n) time | O(1) space
 
-        int maxProfit = 0;
-        int minimumPriceSoFar = prices[0];
+        if (prices.length <= 1) return 0;
 
-        for (int i = 1; i < prices.length; i++) {
-            int currentProfit = prices[i] - minimumPriceSoFar;
-            if (currentProfit > maxProfit) maxProfit = currentProfit;
+        int currentMin = prices[0];
+        int maxProfitSoFar = 0;
 
-            minimumPriceSoFar = Math.min(minimumPriceSoFar, prices[i]);
+        for (int currentPrice : prices) {
+            if (currentPrice > currentMin) {
+                int currentProfit = currentPrice - currentMin;
+                maxProfitSoFar = Math.max(maxProfitSoFar, currentProfit);
+            }
+
+            currentMin = Math.min(currentMin, currentPrice);
         }
 
-        return maxProfit;
+        return maxProfitSoFar;
     }
 }
